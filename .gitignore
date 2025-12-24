@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Large media you don’t want in repo
+*.mp4
+*.mov
+*.zip
+*.psd
+*.fig
+
+# MacOS hidden files
+.DS_Store
+
+# Log files
+npm-debug.log
+yarn-error.log
