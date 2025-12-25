@@ -38,13 +38,13 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-[16px]">
             <Logo size={32} />
-            <Link 
+            {/* <Link 
               to="/" 
               className="text-[20px] font-serif italic font-normal text-[#3B2B15] dark:text-[#FFFBF5] hover:scale-95 active:scale-90 transition-transform"
               onClick={() => window.scrollTo(0, 0)}
             >
-              michellyliu.com
-            </Link>
+              michellyliu.com 
+            </Link> */}
           </div>
           
           <div className="flex items-center gap-[24px] md:gap-[40px]">

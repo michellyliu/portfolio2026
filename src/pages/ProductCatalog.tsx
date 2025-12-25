@@ -15,7 +15,7 @@ const ProductCatalog = () => {
             className="flex flex-col gap-[36px] md:gap-[32px] lg:gap-[36px]"
           >
             <h1 className="text-[40px] md:text-[52px] lg:text-[76px] font-serif font-medium text-[#FFFBF5] leading-normal lg:leading-[88px]">
-              Product Catalog
+              [WIP] Product Catalog 
             </h1>
             
             <div className="flex flex-col md:flex-row gap-[32px] md:gap-[48px] lg:gap-[64px]">
@@ -25,7 +25,7 @@ const ProductCatalog = () => {
               </div>
               <div>
                 <p className="text-[14px] md:text-[16px] lg:text-[18px] font-sans font-medium text-[#FFFBF5]/70 leading-normal mb-1">DURATION</p>
-                <p className="text-[16px] md:text-[18px] lg:text-[20px] font-sans font-medium text-[#FFFBF5] leading-[1.5]">June 2024-Present</p>
+                <p className="text-[16px] md:text-[18px] lg:text-[20px] font-sans font-medium text-[#FFFBF5] leading-[1.5]">November 2025-Present</p>
               </div>
               <div>
                 <p className="text-[14px] md:text-[16px] lg:text-[18px] font-sans font-medium text-[#FFFBF5]/70 leading-normal mb-1">COMPANY</p>
@@ -34,13 +34,14 @@ const ProductCatalog = () => {
             </div>
 
             {/* Wide Flowchart Image */}
-            <div className="mt-[16px] md:mt-[20px] lg:mt-[20px]">
+            {/* <div className="mt-[16px] md:mt-[20px] lg:mt-[20px]">
               <img
                 src="/images/uxstrat/uxstrat_blueprints_hero.png"
                 alt="Service Blueprints"
                 className="w-full rounded-lg shadow-[0px_0px_4.4px_0px_rgba(0,0,0,0.06),0px_5px_19px_0px_rgba(0,0,0,0.08)]"
               />
-            </div>
+            </div> */}
+            <p className="text-[10px] md:text-[12px] lg:text-[14px] font-sans font-regular italic text-[#FFFBF5]/70 leading-normal mb-1">*Some image parts are intentionally blurred to protect sensitive information.</p>
           </motion.div>
         </div>
         
@@ -461,16 +462,17 @@ const ProductCatalog = () => {
             {/* CTA Button */}
             <div className="text-center">
               <Link
-                to="/"
+                to="/ux-strategy"
                 onClick={() => window.scrollTo(0, 0)}
                 className="inline-block border-[0.5px] border-[#3B2B15]/80 dark:border-[#FFFBF5]/80 rounded-lg px-8 py-6 hover:scale-95 active:scale-90 transition-transform"
               >
-                <p className="text-[16px] md:text-[18px] lg:text-[20px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal mb-2">
-                  Want to see another problem I worked through?
-                </p>
                 <span className="text-[32px] md:text-[40px] lg:text-[48px] block">
                   🔍
                 </span>
+                <p className="text-[16px] md:text-[18px] lg:text-[20px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal mb-2">
+                See how I think beyond screens, from detailed task flows to E2E service blueprints.
+                </p>
+                
               </Link>
             </div>
           </motion.section>

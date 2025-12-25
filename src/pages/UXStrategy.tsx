@@ -41,6 +41,7 @@ const UXStrategy = () => {
                 className="w-full rounded-lg shadow-[0px_0px_4.4px_0px_rgba(0,0,0,0.06),0px_5px_19px_0px_rgba(0,0,0,0.08)]"
               />
             </div>
+            <p className="text-[10px] md:text-[12px] lg:text-[14px] font-sans font-regular italic text-[#FFFBF5]/70 leading-normal mb-1">*Some image parts are intentionally blurred to protect sensitive information.</p>
           </motion.div>
         </div>
         
@@ -135,7 +136,7 @@ const UXStrategy = () => {
                 THE PROBLEM
               </h2>
               <h3 className="text-[24px] md:text-[32px] lg:text-[40px] font-serif font-medium text-[#3B2B15] dark:text-[#FFFBF5] leading-normal mb-[48px] md:mb-[64px] lg:mb-[80px]">
-                Stakeholders lack a comprehensive view of the complex workflows involved in resolving corporate client requests, leading to gaps in understanding and missed opportunities.
+                Stakeholders lack a comprehensive view of the complex workflows involved in resolving corporate client requests, making it difficult to spot inefficiencies, prioritize improvements, and design for future growth.
               </h3>
 
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-[32px] md:gap-[48px] lg:gap-[64px]">
@@ -191,7 +192,7 @@ const UXStrategy = () => {
                 THE RESEARCH
               </h2>
               <h3 className="text-[24px] md:text-[32px] lg:text-[40px] font-serif font-medium text-[#3B2B15] dark:text-[#FFFBF5] leading-normal">
-                To understand the current landscape, I synthesized information from years of training sessions, user interviews, and multiple past artifacts.
+                To understand the current landscape, I synthesized information from years of training sessions, user interviews, and fragmented legacy documentation.
               </h3>
             </div>
 
@@ -361,7 +362,7 @@ const UXStrategy = () => {
               THE IMPACT
             </h2>
             <h3 className="text-[24px] md:text-[32px] lg:text-[40px] font-serif font-medium text-[#3B2B15] dark:text-[#FFFBF5] leading-normal">
-              These blueprints are now a shared reference for design, product, and development teams. They anchor discussions on how to streamline processes and reduce onboarding & implementation cycle times.
+              These blueprints are now a shared reference for design, product, and development teams. They prevent misalignment and guide decisions on how to streamline onboarding and implementation processes.
             </h3>
           </motion.section>
         </div>
@@ -382,25 +383,11 @@ const UXStrategy = () => {
                   THE FUTURE
                 </h2>
                 <h3 className="text-[24px] md:text-[32px] lg:text-[40px] font-serif font-medium text-[#3B2B15] dark:text-[#FFFBF5] leading-normal mb-6">
-                  These artifacts anchor the vision for a future-state experience that:
+                I aim to extend these blueprints into a scalable framework for other service areas.
                 </h3>
-                <ul className="space-y-3 ms-[27px]">
-                  <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Streamlines SUAM processes end-to-end
-                  </li>
-                  <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Connects servicing, setup, and the broader client journey
-                  </li>
-                  <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Reduces manual effort with strategic automation
-                  </li>
-                  <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Improves usability through thoughtful workflow redesign
-                  </li>
-                  <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Delivers a cohesive and measurable servicing experience
-                  </li>
-                </ul>
+                <p className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal mt-4">
+                This project has highlighted opportunities to explore how visual documentation and end-to-end service mapping can drive cross-functional alignment and operational efficiency. 
+                I’m also excited to experiment with additional tools and methods to break down complex workflows into more digestible chunks!</p>
               </div>
               <div>
                 <img

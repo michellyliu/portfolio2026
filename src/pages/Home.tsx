@@ -85,47 +85,10 @@ const Home = () => {
         </div>
       </section>
 
-      {/* My Work Section - Comments Platform */}
-      <section id="projects" className="pt-[64px] pb-[64px] md:pt-[50px] md:pb-[50px] lg:pt-[60px] lg:pb-[60px] border-t-[0.5px] border-[#3B2B15] dark:border-[#FFFBF5]/80 dark:border-[#FFFBF5]/80">
-        <div className="max-w-[1600px] mx-auto px-[28px] md:px-[64px] lg:px-[120px]">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-30%" }}
-            transition={{ duration: 0.6, ease: [0.25, 0.1, 0.25, 1] }}
-            className="flex flex-col md:flex-row items-start md:items-center gap-[16px] md:gap-[32px] mb-[16px] md:mb-[32px]"
-          >
-            <h2 className="text-[32px] md:text-[36px] lg:text-[40px] font-serif font-medium text-[#3B2B15] dark:text-[#FFFBF5] leading-normal">
-              J.P. Morgan
-            </h2>
-            <p className="text-[16px] md:text-[18px] lg:text-[20px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal flex-1 text-left md:text-right">
-              Comments for a client request fulfillment platform
-            </p>
-          </motion.div>
-          
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-30%" }}
-            transition={{ duration: 0.6, delay: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
-            className="hover:scale-[0.98] transition-transform cursor-pointer"
-          >
-            <Link 
-              to="/product-catalog"
-              onClick={() => window.scrollTo(0, 0)}
-            > 
-              <img
-                src="/images/home/homepage_platform.png"
-                alt="J.P. Morgan Comments Platform"
-                className="w-full rounded-lg"
-              /> 
-            </Link>
-          </motion.div>
-        </div>
-      </section>
+     
 
       {/* My Work Section - UX Strategy */}
-      <section className="pt-[88px] pb-[88px] md:pt-[100px] md:pb-[100px] lg:pt-[128px] lg:pb-[128px] border-t-[0.5px] border-[#3B2B15] dark:border-[#FFFBF5]/80 dark:border-[#FFFBF5]/80">
+      <section id="projects" className="pt-[88px] pb-[88px] md:pt-[100px] md:pb-[100px] lg:pt-[128px] lg:pb-[128px] border-t-[0.5px] border-[#3B2B15] dark:border-[#FFFBF5]/80 dark:border-[#FFFBF5]/80">
         <div className="max-w-[1600px] mx-auto px-[28px] md:px-[64px] lg:px-[120px]">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -163,6 +126,45 @@ const Home = () => {
         </div>
       </section>
 
+       {/* My Work Section - Product Catalog */}
+       <section id="projects2" className="pt-[64px] pb-[64px] md:pt-[50px] md:pb-[50px] lg:pt-[60px] lg:pb-[60px] border-t-[0.5px] border-[#3B2B15] dark:border-[#FFFBF5]/80 dark:border-[#FFFBF5]/80">
+        <div className="max-w-[1600px] mx-auto px-[28px] md:px-[64px] lg:px-[120px]">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-30%" }}
+            transition={{ duration: 0.6, ease: [0.25, 0.1, 0.25, 1] }}
+            className="flex flex-col md:flex-row items-start md:items-center gap-[16px] md:gap-[32px] mb-[16px] md:mb-[32px]"
+          >
+            <h2 className="text-[32px] md:text-[36px] lg:text-[40px] font-serif font-medium text-[#3B2B15] dark:text-[#FFFBF5] leading-normal">
+              J.P. Morgan
+            </h2>
+            <p className="text-[16px] md:text-[18px] lg:text-[20px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal flex-1 text-left md:text-right">
+            [Coming soon!] Product Catalog for J.P. Morgan's Client Onboarding team
+            </p>
+          </motion.div>
+          
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-30%" }}
+            transition={{ duration: 0.6, delay: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
+            className="hover:scale-[0.98] transition-transform cursor-pointer"
+          >
+            {/* <Link 
+              to="/product-catalog"
+              onClick={() => window.scrollTo(0, 0)}
+            > 
+              <img
+                src="/images/home/homepage_platform.png"
+                alt="J.P. Morgan Product Catalog"
+                className="w-full rounded-lg"
+              /> 
+            </Link> */}
+          </motion.div>
+        </div>
+      </section>
+
       {/* Feature Cards Section */}
       <section className="relative pt-[56px] pb-[56px] md:pt-[96px] md:pb-[96px] lg:pt-[104px] lg:pb-[104px] border-t-[0.5px] border-b-[0.5px] border-[#3B2B15] dark:border-[#FFFBF5]/80 dark:border-[#FFFBF5]/80">
         <div className="max-w-[1600px] mx-auto px-[28px] md:px-[64px] lg:px-[120px]">
@@ -184,10 +186,10 @@ const Home = () => {
                 onClick={() => window.scrollTo(0, 0)}
               >
                 <h2 className="text-[32px] md:text-[36px] lg:text-[40px] font-serif font-medium text-[#3B2B15] dark:text-[#FFFBF5] leading-normal">
-                My Experiments
+                ⚛︎ My Experiments
                 </h2>
                 <p className="text-[16px] md:text-[18px] lg:text-[20px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal">
-                ⚛︎ Various UX explorations and learning exercises.
+                Various UX explorations and learning exercises.
                 </p>
               </Link>
             </motion.div>
@@ -205,10 +207,10 @@ const Home = () => {
                 onClick={() => window.scrollTo(0, 0)}
               >
                 <h2 className="text-[32px] md:text-[36px] lg:text-[40px] font-serif font-medium text-[#3B2B15] dark:text-[#FFFBF5] leading-normal">
-                My Art
+                ᝰ My Art
                 </h2>
                 <p className="text-[16px] md:text-[18px] lg:text-[20px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal">
-                ᝰ Fueled by fineliner pens, Procreate, and good ol' paper.
+                Fueled by fineliner pens, Procreate, and good ol' paper.
                 </p>
               </Link>
             </motion.div>
@@ -226,10 +228,10 @@ const Home = () => {
                 onClick={() => window.scrollTo(0, 0)}
               >
                 <h2 className="text-[32px] md:text-[36px] lg:text-[40px] font-serif font-medium text-[#3B2B15] dark:text-[#FFFBF5] leading-normal">
-                My Story
+                ⚲ My Story
                 </h2>
                 <p className="text-[16px] md:text-[18px] lg:text-[20px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal">
-                ⛱ Raised by the Peach State, based in the Big Apple.
+                  Raised by the Peach State, based in the Big Apple.
                 </p>
               </Link>
             </motion.div>
