@@ -5,7 +5,7 @@ const UXStrategy = () => {
   return (
     <div className="min-h-screen bg-[#FFFBF5] dark:bg-[#1a1611] transition-colors duration-300">
       {/* Hero Section with Dark Background */}
-      <section className="bg-[#3B2B15] dark:bg-[#0f0d0a] relative overflow-hidden transition-colors duration-300">
+      <section className="bg-[#3B2B15] dark:bg-[#1a1611] relative overflow-hidden transition-colors duration-300">
         <div className="max-w-[1600px] mx-auto px-[28px] md:px-[64px] lg:px-[120px] py-[56px] md:py-[64px] lg:py-[72px]">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -48,7 +48,7 @@ const UXStrategy = () => {
       </section>
 
       {/* Main Content Area */}
-      <main className="bg-[#FFFBF5]">
+      <main className="bg-[#FFFBF5] dark:bg-[#1a1611]">
         <div className="max-w-[1600px] mx-auto px-[28px] md:px-[64px] lg:px-[120px] py-[48px] md:py-[64px] lg:py-[104px]">
           
           {/* Product detail / Context Section */}
@@ -452,12 +452,18 @@ const UXStrategy = () => {
                 onClick={() => window.scrollTo(0, 0)}
                 className="inline-block border-[0.5px] border-[#3B2B15]/80 dark:border-[#FFFBF5]/80 rounded-lg px-8 py-6 hover:scale-95 active:scale-90 transition-transform"
               >
-                <p className="text-[16px] md:text-[18px] lg:text-[20px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal mb-2">
-                  Want to see another problem I worked through?
-                </p>
                 <span className="text-[32px] md:text-[40px] lg:text-[48px] block">
                   🔍
                 </span>
+                <p className="text-[16px] md:text-[18px] lg:text-[20px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal mb-2">
+                  Checkout the learning hub I designed to centralize knowledge for internal teams!
+                </p>
+                
+                <img
+                  src="/images/home/homepage_learning.png"
+                  alt="Learning hub business benefits"
+                  className="w-full rounded-lg bg-white"
+                />
               </Link>
             </div>
           </motion.section>

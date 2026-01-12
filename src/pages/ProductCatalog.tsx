@@ -5,7 +5,7 @@ const ProductCatalog = () => {
   return (
     <div className="min-h-screen bg-[#FFFBF5] dark:bg-[#1a1611] transition-colors duration-300">
       {/* Hero Section with Dark Background */}
-      <section className="bg-[#3B2B15] dark:bg-[#0f0d0a] relative overflow-hidden transition-colors duration-300">
+      <section className="bg-[#3B2B15] dark:bg-[#1a1611] relative overflow-hidden transition-colors duration-300">
         <div className="max-w-[1600px] mx-auto px-[28px] md:px-[64px] lg:px-[120px] py-[56px] md:py-[64px] lg:py-[72px]">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -15,7 +15,8 @@ const ProductCatalog = () => {
             className="flex flex-col gap-[36px] md:gap-[32px] lg:gap-[36px]"
           >
             <h1 className="text-[40px] md:text-[52px] lg:text-[76px] font-serif font-medium text-[#FFFBF5] leading-normal lg:leading-[88px]">
-              [WIP] Product Catalog 
+            Eligibility Rules Learning Hub
+
             </h1>
             
             <div className="flex flex-col md:flex-row gap-[32px] md:gap-[48px] lg:gap-[64px]">
@@ -25,7 +26,7 @@ const ProductCatalog = () => {
               </div>
               <div>
                 <p className="text-[14px] md:text-[16px] lg:text-[18px] font-sans font-medium text-[#FFFBF5]/70 leading-normal mb-1">DURATION</p>
-                <p className="text-[16px] md:text-[18px] lg:text-[20px] font-sans font-medium text-[#FFFBF5] leading-[1.5]">November 2025-Present</p>
+                <p className="text-[16px] md:text-[18px] lg:text-[20px] font-sans font-medium text-[#FFFBF5] leading-[1.5]">December 2025-Present</p>
               </div>
               <div>
                 <p className="text-[14px] md:text-[16px] lg:text-[18px] font-sans font-medium text-[#FFFBF5]/70 leading-normal mb-1">COMPANY</p>
@@ -34,21 +35,21 @@ const ProductCatalog = () => {
             </div>
 
             {/* Wide Flowchart Image */}
-            {/* <div className="mt-[16px] md:mt-[20px] lg:mt-[20px]">
+            <div className="mt-[16px] md:mt-[20px] lg:mt-[20px]">
               <img
-                src="/images/uxstrat/uxstrat_blueprints_hero.png"
-                alt="Service Blueprints"
+                src="/images/home/homepage_learning.png"
+                alt="Learning Hub"
                 className="w-full rounded-lg shadow-[0px_0px_4.4px_0px_rgba(0,0,0,0.06),0px_5px_19px_0px_rgba(0,0,0,0.08)]"
               />
-            </div> */}
-            <p className="text-[10px] md:text-[12px] lg:text-[14px] font-sans font-regular italic text-[#FFFBF5]/70 leading-normal mb-1">*Some image parts are intentionally blurred to protect sensitive information.</p>
+            </div>
+            <p className="text-[10px] md:text-[12px] lg:text-[14px] font-sans font-regular italic text-[#FFFBF5]/70 leading-normal mb-1">*Some images are intentionally blurred to protect sensitive information.</p>
           </motion.div>
         </div>
         
       </section>
 
       {/* Main Content Area */}
-      <main className="bg-[#FFFBF5]">
+      <main className="bg-[#FFFBF5] dark:bg-[#1a1611]">
         <div className="max-w-[1600px] mx-auto px-[28px] md:px-[64px] lg:px-[120px] py-[48px] md:py-[64px] lg:py-[104px]">
           
           {/* Product detail / Context Section */}
@@ -65,7 +66,7 @@ const ProductCatalog = () => {
                   <span className="text-[32px] md:text-[40px] lg:text-[48px]">💡</span>
                 </div>
                 <p className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5] leading-normal flex-1">
-                  Imagine a global corporation approaches a bank to open several new accounts and implement five treasury products. How does the bank manage and execute this process?
+                Eligibility rules power personalized onboarding by determining which products clients can access. When those rules are complex, dense, and fragmented, how do internal teams effectively learn and apply them?
                 </p>
               </div>
             </div>
@@ -75,13 +76,22 @@ const ProductCatalog = () => {
                 THE BIG PICTURE
               </h2>
               <h3 className="text-[24px] md:text-[32px] lg:text-[40px] font-serif font-medium text-[#3B2B15] dark:text-[#FFFBF5] leading-normal">
-                I led the creation of end-to-end service blueprints and task flows detailing the multi-channel hand-offs across 10+ teams and 5+ systems for J.P. Morgan's corporate client request process.
+              I led the design of a centralized learning hub that enables internal teams to understand and apply complex eligibility rules, ensuring they can accurately and confidently deliver personalized product experiences to clients.
               </h3>
+
+              <div className="mt-[16px] md:mt-[20px] lg:mt-[20px]">
+              <img
+                src="/images/learninghub/learninghub_questions.png"
+                alt="Learning Hub"
+                className="w-full rounded-lg "
+              />
+            </div>
+
             </div>
           </motion.section>
         </div>
 
-        {/* THE TEAM */}
+        {/* THE TEAM 
         <div className="border-t-[0.5px] border-[#3B2B15]/80 dark:border-[#FFFBF5]/80"></div>
         <div className="max-w-[1600px] mx-auto px-[28px] md:px-[64px] lg:px-[120px]">
           <motion.section
@@ -119,7 +129,7 @@ const ProductCatalog = () => {
               </div>
             </div>
           </motion.section>
-        </div>
+        </div>*/}
 
         {/* THE PROBLEM */}
         <div className="border-t-[0.5px] border-[#3B2B15]/80 dark:border-[#FFFBF5]/80"></div>
@@ -136,40 +146,44 @@ const ProductCatalog = () => {
                 THE PROBLEM
               </h2>
               <h3 className="text-[24px] md:text-[32px] lg:text-[40px] font-serif font-medium text-[#3B2B15] dark:text-[#FFFBF5] leading-normal mb-[48px] md:mb-[64px] lg:mb-[80px]">
-                Stakeholders lack a comprehensive view of the complex workflows involved in resolving corporate client requests, leading to gaps in understanding and missed opportunities.
+              Internal teams struggle to understand and apply J.P. Morgan’s complex product eligibility rules, making it difficult to deliver personalized product experiences for clients.
               </h3>
 
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-[32px] md:gap-[48px] lg:gap-[64px]">
                 <div>
                   <img
-                    src="/images/uxstrat/uxstrat_valuestream.png"
+                    src="/images/learninghub/spreadsheet.png"
                     alt="Value Stream"
                     className="w-full rounded-lg"
+              
                   />
+                  <p className="text-[10px] md:text-[12px] font-sans font-normal italic text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal mb-4">
+                    * Data shown is illustrative due to confidentiality.
+                  </p>
                 </div>
                 <div>
                   <p className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5] leading-normal mb-4">
-                    KEY ISSUES
+                    THE IMPORTANCE
                   </p>
                   <h3 className="text-[24px] md:text-[32px] lg:text-[40px] font-serif font-medium text-[#3B2B15] dark:text-[#FFFBF5] leading-normal mb-4">
-                    The Setup and Maintenance space spans across 9 functional areas and involves 15+ individual workflows.
+                    Historically, J.P.Morgan Payments product data has been manually maintained via spreadsheets. 
                   </h3>
                   <p className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal mb-4">
                     Key Issues include:
                   </p>
                   <ul className="space-y-3 ms-[27px]">
                     <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                      Fragmented view of workflows
+                      Product/service codes sometimes duplicated across systems
                     </li>
                     <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                      Unclear ownership of processes
+                      Building product packages without a common structure
                     </li>
                     <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                      Limited visibility into where automation or AI/ML could reduce manual effort
+                      Labor intensive, fragmented and inconsistent data maintenance
                     </li>
-                    <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                      Lack of a unified view connecting SUAM tasks to the broader service representative journey
-                    </li>
+                    {/* <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
+                      x
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -192,7 +206,7 @@ const ProductCatalog = () => {
                 THE RESEARCH
               </h2>
               <h3 className="text-[24px] md:text-[32px] lg:text-[40px] font-serif font-medium text-[#3B2B15] dark:text-[#FFFBF5] leading-normal">
-                To understand the current landscape, I synthesized information from years of training sessions, user interviews, and multiple past artifacts.
+              I conducted deep discovery across multiple internal teams involved in the product experience. My goal was to uncover where knowledge breakdowns occurred, how eligibility rules were being interpreted, and why existing resources were failing to scale.
               </h3>
             </div>
 
@@ -217,20 +231,20 @@ const ProductCatalog = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-[32px] md:gap-[48px] lg:gap-[64px]">
               <div>
                 <h4 className="text-[16px] md:text-[18px] font-sans font-semibold text-[#3B2B15] dark:text-[#FFFBF5] leading-normal mb-4">
-                  🎯 THE GOALS
+                  🎯 THE METHODS
                 </h4>
+                <p className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal mb-4">
+                I synthesized insights from:
+                  </p>
                 <ul className="space-y-3 ms-[27px]">
                   <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Identify areas of opportunity
+                  Stakeholder interviews with product managers, designers, and business partners
                   </li>
                   <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Hear pain points and mental models firsthand
+                  Contextual walkthroughs of existing eligibility documentation and tooling
                   </li>
                   <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Centralize fragmented artifacts
-                  </li>
-                  <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Identify the teams in play and the tools, data, and systems used
+                  Artifact analysis of legacy spreadsheet and training materials
                   </li>
                 </ul>
               </div>
@@ -240,13 +254,79 @@ const ProductCatalog = () => {
                 </h4>
                 <ul className="space-y-3 ms-[27px]">
                   <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Heavy manual routing of requests and information
+                  Eligibility rules were often understood through knowledge and verbal handoffs rather than documented, discoverable sources
                   </li>
                   <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Client interactions and tasks are treated as "one-off, reactionary requests"
+                  Documentation and information were scattered across spreadsheets, slide decks, and internal pages 
+
                   </li>
                   <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Multiple, fragmented tools are needed to complete actions
+                  Teams spent significant time deciphering rules before they could apply them, slowing onboarding and increasing the risk of errors.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </motion.section>
+
+          <motion.section
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-30%" }}
+            transition={{ duration: 0.6, ease: [0.25, 0.1, 0.25, 1] }}
+            className="mb-[48px] md:mb-[64px] lg:mb-[80px] pt-[48px] md:pt-[64px] lg:pt-[104px]"
+          >
+            <div className="mb-[48px] md:mb-[64px] lg:mb-[80px]">
+              <h2 className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal mb-4 uppercase tracking-wider">
+                THE COMPARATIVE ANALYSIS
+              </h2>
+              <h3 className="text-[24px] md:text-[32px] lg:text-[40px] font-serif font-medium text-[#3B2B15] dark:text-[#FFFBF5] leading-normal">
+              To inform the designs, I conducted a focused analysis of existing learning and knowledge systems to identify design patterns that support comprehension, discoverability, and long-term retention.
+              </h3>
+            </div>
+
+            <div>
+                <img
+                  src="/images/learninghub/competitve.png"
+                  alt="Comparative Analysis"
+                  className="w-full rounded-lg "
+                />
+              </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-[32px] md:gap-[48px] lg:gap-[64px]">
+              <div>
+                <h4 className="text-[16px] md:text-[18px] font-sans font-semibold text-[#3B2B15] dark:text-[#FFFBF5] leading-normal mb-4">
+                  🎯 THE METHODS
+                </h4>
+                <p className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal mb-4">
+                Some examples I looked at include:
+                  </p>
+                <ul className="space-y-3 ms-[27px]">
+                  <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
+                  Duolingo
+                  </li>
+                  <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
+                  LinkedIn Learning
+                  </li>
+                  <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
+                  Airtable
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="text-[16px] md:text-[18px] font-sans font-semibold text-[#3B2B15] dark:text-[#FFFBF5] leading-normal mb-4">
+                  💡 THE INSIGHTS
+                </h4>
+                <ul className="space-y-3 ms-[27px]">
+                  <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
+                 Progressive modules break concepts into digestible units with real examples.
+                  </li>
+                  <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
+                  Full-text search and contextual filters allow users to find what they need, not just what exists.
+
+                  </li>
+                  <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
+                  Infographics, flow diagrams, and visual aids are used instead of long text walls.
+
                   </li>
                 </ul>
               </div>
@@ -269,43 +349,45 @@ const ProductCatalog = () => {
                 THE OUTCOME
               </h2>
               <h3 className="text-[24px] md:text-[32px] lg:text-[40px] font-serif font-medium text-[#3B2B15] dark:text-[#FFFBF5] leading-normal">
-                I created three end-to-end service blueprints capturing the full Setup and Maintenance experience, along with detailed task flows that map the multi-channel hand-offs between more than 10 teams and 5 systems.
+              A centralized learning hub that turns complex eligibility rules into actionable knowledge—empowering teams to deliver accurate, personalized onboarding experiences at scale.
+      
               </h3>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-[32px] md:gap-[48px] lg:gap-[64px] mb-[48px] md:mb-[64px] lg:mb-[80px]">
               <div>
                 <img
-                  src="/images/uxstrat/uxstrat_blueprintsfull.png"
+                  src="/images/learninghub/flow1.png"
+                  alt="Blueprint Full"
+                  className="w-full rounded-lg "
+                />
+                <br></br>
+                 <img
+                  src="/images/learninghub/flow2.png"
+                  alt="Blueprint Full"
+                  className="w-full rounded-lg "
+                />
+                <br></br>
+                 <img
+                  src="/images/learninghub/flow3.png"
                   alt="Blueprint Full"
                   className="w-full rounded-lg "
                 />
               </div>
               <div>
                 <h4 className="text-[16px] md:text-[18px] font-sans font-semibold text-[#3B2B15] dark:text-[#FFFBF5] leading-normal mb-4">
-                  BLUEPRINT KEY AREAS
+                 THE FLOW
                 </h4>
+                <p className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal mb-4">
+                The hub supports multiple roles and learning styles by offering two entry paths:
+                  </p>
                 <ul className="space-y-3 ms-[27px]">
                   <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Objectives and goals at each stage
+                  Guided personalization through quick questions to tailor content based on team, role, and use case
+
                   </li>
                   <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Personas involved
-                  </li>
-                  <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Enabling tool/technology used
-                  </li>
-                  <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Data attributes generated, transferred, or required
-                  </li>
-                  <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Notes and considerations for more insight
-                  </li>
-                  <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Gaps, pain points, and friction
-                  </li>
-                  <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Areas of opportunities for future state
+                  Direct access for experienced users who want to jump straight into documentation
                   </li>
                 </ul>
               </div>
@@ -314,33 +396,43 @@ const ProductCatalog = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-[32px] md:gap-[48px] lg:gap-[64px]">
               <div className="space-y-[15px]">
                
-                <img
-                  src="/images/uxstrat/uxstrat_taskflow1.png"
-                  alt="Task Flow 1"
+              <img
+                  src="/images/learninghub/flow4.png"
+                  alt="Learning hub context and overview"
                   className="w-full rounded-lg bg-white"
                 />
                 <img
-                  src="/images/uxstrat/uxstrat_taskflow2.png"
-                  alt="Task Flow 2"
+                  src="/images/home/homepage_learning.png"
+                  alt="Learning hub business benefits"
                   className="w-full rounded-lg bg-white"
                 />
+                <img
+                  src="/images/learninghub/flow5.png"
+                  alt="Learning hub context and overview"
+                  className="w-full rounded-lg bg-white"
+                />
+                
+                
               </div>
               <div>
-                <h4 className="text-[16px] md:text-[18px] font-sans font-semibold text-[#3B2B15] dark:text-[#FFFBF5] leading-normal mb-4">
+                {/* <h4 className="text-[16px] md:text-[18px] font-sans font-semibold text-[#3B2B15] dark:text-[#FFFBF5] leading-normal mb-4">
                   TASK-FLOW KEY AREAS
-                </h4>
+                </h4> */}
+                <p className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal mb-4">
+                To reduce cognitive load and support efficient learning, the experience incorporates:
+                  </p>
                 <ul className="space-y-3 ms-[27px]">
                   <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Step-by-step actions each persona takes
+                  Progressive disclosure to surface only relevant information at the right time
                   </li>
                   <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Images of screens encountered
+                  A robust search bar for fast retrieval of specific rules and concepts
                   </li>
                   <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Decisions and options
+                  An intuitive left-hand navigation for easy exploration and orientation
                   </li>
                   <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Role-specific needs and expectations
+                  Progress indicators to help users track learning and build confidence over time
                   </li>
                 </ul>
               </div>
@@ -362,7 +454,7 @@ const ProductCatalog = () => {
               THE IMPACT
             </h2>
             <h3 className="text-[24px] md:text-[32px] lg:text-[40px] font-serif font-medium text-[#3B2B15] dark:text-[#FFFBF5] leading-normal">
-              These blueprints are now a shared reference for design, product, and development teams. They anchor discussions on how to streamline processes and reduce onboarding & implementation cycle times.
+            Internal teams can now onboard 30–50% faster when learning eligibility rules, reducing dependency on verbal knowledge, heavy documentation, and ad-hoc guidance.
             </h3>
           </motion.section>
         </div>
@@ -383,29 +475,27 @@ const ProductCatalog = () => {
                   THE FUTURE
                 </h2>
                 <h3 className="text-[24px] md:text-[32px] lg:text-[40px] font-serif font-medium text-[#3B2B15] dark:text-[#FFFBF5] leading-normal mb-6">
-                  These artifacts anchor the vision for a future-state experience that:
+                This learning hub lays the foundation for a scalable eligibility ecosystem. 
                 </h3>
+                <p className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal mb-4">
+                Future enhancements could include:
+                  </p>
                 <ul className="space-y-3 ms-[27px]">
                   <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Streamlines SUAM processes end-to-end
+                  Deeper personalization, using saved roles and behaviors to continuously refine content recommendations
                   </li>
                   <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Connects servicing, setup, and the broader client journey
+                  Interactive scenarios and simulations, allowing teams to practice applying eligibility rules to real client use cases
                   </li>
                   <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Reduces manual effort with strategic automation
+                  Analytics and feedback loops to identify knowledge gaps and evolve content based on real usage
                   </li>
-                  <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Improves usability through thoughtful workflow redesign
-                  </li>
-                  <li className="text-[16px] md:text-[18px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal list-disc">
-                    Delivers a cohesive and measurable servicing experience
-                  </li>
+                  
                 </ul>
               </div>
               <div>
                 <img
-                  src="/images/uxstrat/uxstrat_final.png"
+                  src="/images/home/homepage_learning.png"
                   alt="Future Vision"
                   className="w-full rounded-lg"
                 />
@@ -469,9 +559,15 @@ const ProductCatalog = () => {
                 <span className="text-[32px] md:text-[40px] lg:text-[48px] block">
                   🔍
                 </span>
+                
                 <p className="text-[16px] md:text-[18px] lg:text-[20px] font-sans font-normal text-[#3B2B15] dark:text-[#FFFBF5]/80 leading-normal mb-2">
-                See how I think beyond screens, from detailed task flows to E2E service blueprints.
+                See how I think beyond screens: E2E service blueprints & persona task-flows.
                 </p>
+                <img
+                  src="/images/home/homepage_blueprints.png"
+                  alt="Learning hub business benefits"
+                  className="w-full rounded-lg bg-white"
+                />
                 
               </Link>
             </div>
